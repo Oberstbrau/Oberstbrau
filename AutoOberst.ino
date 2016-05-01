@@ -5,7 +5,7 @@
 #include <DallasTemperature.h>
 #include <SimpleTimer.h>
 #include <PID_v1.h>
-char auth[] = "074e316a54be4df4bd5c1e804c749d80";
+char auth[] = "----------------------------------";
 
 // ****** DS18B20 and Temperature settings ******
 #define ONE_WIRE_BUS D2                  // DS18B20 pin to D2 (4)
@@ -27,7 +27,7 @@ BLYNK_WRITE(V0)
 void setup()
 {
     Serial.begin(115200);
-    Blynk.begin(auth, "hitogdit", "Jeggikkenturpastien");
+    Blynk.begin(auth, "---------------", "-------------------");
     windowStartTime = millis();
     hltSetpoint = 50;
     hltPID.SetOutputLimits(0, WindowSize);
