@@ -1,6 +1,5 @@
 # Oberstbrau
-Oberstbräu's brewing automation repository
-This is a brewing automaton project for the Oberstbräu nano brewery.
+This is a brewing automaton project for the Oberstbräu brewery.
 It's controlled by a WeMos D1 mini running Arduino code, and the UI is Blynk.
 
 The brewery will consist of:
